@@ -60,7 +60,7 @@ class DataCleaning_and_EDA_pipeline:
         
 
 
-file_path = "/Users/gyauk/Desktop/DataEngineering/stockanalysis/cleaned-stocks.parquet"  
+file_path = "../data/raw_data/processed/cleaned-stocks.parquet"  
 Pline = DataCleaning_and_EDA_pipeline(file_path)
 Pline.view_data()
 Pline.check_missing_values()
